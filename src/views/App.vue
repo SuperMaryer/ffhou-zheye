@@ -18,11 +18,11 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import GlobalHeader, { UserProps } from './components/GlobalHeader.vue'
+import GlobalHeader, { UserProps } from '../components/GlobalHeader.vue'
 
 const testUserData: UserProps = {
-  isLogin: true,
-  name: '1012073997@qq.com'
+  // name: 'ffhou',
+  isLogin: false
 }
 
 export default defineComponent({
